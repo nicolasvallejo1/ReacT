@@ -1,10 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Banners from "./components/Banners";
+import Footer from "./components/Footer";
+import ItemListContainer from "./components/ItemListContainer";
+import NavBar from "./components/Navbar";
+//import Promocion from "./components/Promocion";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-    <p>Test</p>
+    <div>
+      <NavBar />
+      <ItemListContainer greeting={"Especialidad Tactica"} />
+      < Banners />
+    
+      <Footer />
     </div>
   );
 }

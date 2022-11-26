@@ -13,7 +13,7 @@ const Banners = () => {
                     <p><img src="images/repuestos.jpg" alt="Repuestos" className="img-fluid" /></p>
                     <h4>Repuestos</h4>
 
-                    <p><a href="#" target="_blank" className="btn btn-warning">Ver Más</a></p>
+                    <p><a href="#" target="_blank" className="btn btn-dark">Ver Más</a></p>
                 </div>
                 <div className="col-md-6 text-center shadow p-3 mx-auto bg-body rounded">
                     <p><img src="images/accesorios.jpg" alt="Accesorios" className="img-fluid" /></p>
